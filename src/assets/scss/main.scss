@@ -1,13 +1,15 @@
+// Variables
+@import "variables/colors";
+@import "variables/fonts";
+
+// Mixins
+@import "mixins/mixins";
+
 // Base
 @import "base/reset";
 @import "base/root";
 @import "base/misc";
-
-// Variables
-@import "variables/colors";
-@import "variables/fonts";
-@import "variables/typography";
-@import "variables/mixins";
+@import "base/typography";
 
 // Components
 // ...
